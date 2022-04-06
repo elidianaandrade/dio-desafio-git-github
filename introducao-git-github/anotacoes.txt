@@ -1,1 +1,14 @@
-[Download Git](https://git-scm.com/)
+💻 Git 
+Sistema de controle de versões de arquivos dstribuídas.
+
+⬇️ Download Git: 
+Link: < https://git-scm.com/ >
+
+⌨️ Principais comandos
+git --version (consultar versão instalada)
+git init (criar repositório ou transformar pasta existente em um)
+git clone (clonar um repositório)
+git brach (criar, excluir e listar branches)
+git status (informações sobre a brach)
+git add (criar, excluir ou modificar arquivo)
+git push (upar branch para o repositório remoto)
