@@ -38,10 +38,10 @@ git add
 
 ### Criar commit
 ~~~
-git commit - m"Anotação sobre o que é o commit aqui"
+git commit - m"Mensagem sobre o que é o commit aqui"
 ~~~
 
-### upar branch para o repositório remoto
+### Upar branch para o repositório remoto
 ~~~
 git push
 ~~~
