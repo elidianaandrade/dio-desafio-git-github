@@ -34,14 +34,14 @@ $ git commit -m "first commit"
 $ git remote add origin https://github.com/username/nome-do-repositorio.git
 ```
 ```bash
-# Envia os objetos, atualizando o repositório remoto
+# Envia os objetos, atualizando a branch main no repositório remoto
 $ git push origin main
 ```
 
 ## ⌨️ Comandos básicos 
 
 Comando                                 | Função
---------------------------------------- | -------------------------------------------------------
+--------------------------------------- | -------------------------------------------------------------------------------
 git --version                           | Consulta a versão instalada
 git init                                | Cria um repositório
 git status                              | Exibe o status da árvore de trabalho 
