@@ -1,3 +1,7 @@
+<div align="center">
+  <img alt="Git" height="100" src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/git-square.svg">
+</div>
+
 # 💻 Introdução ao Git
 🗃 Sistema de controle de versões de arquivos distribuídas.
 <br>
