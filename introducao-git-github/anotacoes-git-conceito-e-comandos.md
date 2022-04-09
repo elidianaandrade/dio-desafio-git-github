@@ -12,6 +12,7 @@
 <br>
 ✅  Durante a instalação deixe marcada as opções: **"Git Bash Here"** e **"Git GUI Here"**.
 
+<br>
 
 ## ⚙️ Funcionalidades básicas 
 
@@ -38,6 +39,8 @@ $ git remote add origin https://github.com/username/nome-do-repositorio.git
 $ git push origin main
 ```
 
+<br>
+
 ### Como alterar a branch em que estou trabalhando pela branch main?
 📁 Clique com o botão direito na pasta do repositório local e clique em **"Git Bash Here"**.
 ```bash
@@ -56,6 +59,8 @@ git push
 # OPCIONAL: Delete a branch antiga do repositório local caso não deseje mais
 git branch -d nomedabranch
 ```
+
+<br>
 
 ## ⌨️ Comandos básicos 
 
