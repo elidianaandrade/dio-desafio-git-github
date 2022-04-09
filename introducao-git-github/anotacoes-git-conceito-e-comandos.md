@@ -1,24 +1,28 @@
-# 💻 Git
-Sistema de controle de versões de arquivos distribuídas.
+# 💻 Introdução ao Git
+🗃 Sistema de controle de versões de arquivos distribuídas.
+<br>
+📑 [Leia a documentação](https://git-scm.com/docs/git/pt_BR)
 
 ## 🔗 Instalação
-- [Download Git](https://git-scm.com/).
-- Durante a instalação deixe marcada as opções "Git Bash Here" e "Git GUI Here".
+⬇️ [Download Git](https://git-scm.com/).
+<br>
+✅  Durante a instalação deixe marcada as opções: **"Git Bash Here"** e **"Git GUI Here"**.
+
 
 ## ⚙️ Funcionalidades básicas 
 
-### Como subir repositório local para a branch main do repositório no GitHub?
-📁 Clique com o botão direito na pasta e clique em "Git Bash Here"
+### Como subir um repositório local para a branch main do repositório remoto no GitHub?
+📁 Clique com o botão direito na pasta e clique em **"Git Bash Here"**.
 ```bash
 # Transforme a pasta existente em um repositório
 $ git init
 ```
 ```bash
-# Adicione os arquivos
+# Caso haja arquivos dê um "git add ." para adicionar todos ao índice
 $ git add .
 ```
 ```bash
-# Crie o commit e adicione uma mensagem descritiva
+# Crie um commit e adicione uma mensagem descritiva
 $ git commit -m "first commit"
 ```
 ```bash
@@ -26,20 +30,20 @@ $ git commit -m "first commit"
 $ git remote add origin https://github.com/username/nome-do-repositorio.git
 ```
 ```bash
-# Suba a branch para o repositório remoto
+# Envia os objetos, atualizando o repositório remoto
 $ git push origin main
 ```
-
 
 ## ⌨️ Comandos básicos 
 
 Comando                                 | Função
 --------------------------------------- | -------------------------------------------------------
-git --version                           | Consultar versão instalada
-git init                                | Criar repositório ou transformar pasta existente em um
-git status                              | Consultar informações sobre a branch
-git add                                 | Adicionar arquivo ou diretório
-git commit - m"commit message"          | Criar commit adicionando mensagem sobre o que se trata
-git push                                | Upar branch para o repositório remoto
-git branch                              | Criar, excluir ou modificar arquivo 
-git clone                               | Clonar um repositório
+git --version                           | Consulta a versão instalada
+git init                                | Cria um repositório
+git status                              | Exibe o status da árvore de trabalho 
+git add                                 | Adiciona os arquivos ao índice
+git commit - m"commit message"          | Cria um commit (grava as alterações) adicionando mensagem sobre o que se trata
+git push                                | Upa os arquivos atualizando a branch no repositório remoto
+git branch                              | Cria, lista ou exclui branches
+git clone                               | Clona um repositório
+
