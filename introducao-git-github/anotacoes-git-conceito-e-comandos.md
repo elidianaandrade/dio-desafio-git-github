@@ -34,8 +34,27 @@ $ git commit -m "first commit"
 $ git remote add origin https://github.com/username/nome-do-repositorio.git
 ```
 ```bash
-# Envia os objetos, atualizando a branch main no repositório remoto
+# Envie os objetos, atualizando a branch main no repositório remoto
 $ git push origin main
+```
+
+### Como alterar a branch em que estou trabalhando pela branch main?
+📁 Clique com o botão direito na pasta do repositório local e clique em **"Git Bash Here"**.
+```bash
+# Alterne para a branch main
+git checkout main
+```
+```bash
+# Mescle a branch main com a que deseja (nesse caso a que estava trabalhando e vai alterar pela main) 
+git merge nomedabranch
+```
+```bash
+# Envie os objetos atualizando a branch main no repositório remoto 
+git push
+```
+```bash
+# OPCIONAL: Delete a branch antiga do repositório local caso não deseje mais
+git branch -d nomedabranch
 ```
 
 ## ⌨️ Comandos básicos 
