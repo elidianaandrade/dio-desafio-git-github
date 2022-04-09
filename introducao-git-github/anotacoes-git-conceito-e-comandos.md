@@ -73,14 +73,14 @@ git push origin --delete nomeDaBranch
 
 ## ⌨️ Comandos básicos 
 
-Comando                                 | Função
---------------------------------------- | -------------------------------------------------------------------------------
-git --version                           | Consulta a versão instalada
-git init                                | Cria um repositório
-git status                              | Exibe o status da árvore de trabalho 
-git add                                 | Adiciona os arquivos ao índice
-git commit - m"commit message"          | Cria um commit (grava as alterações) adicionando mensagem sobre o que se trata
-git push                                | Upa os arquivos atualizando a branch no repositório remoto
-git branch                              | Cria, lista ou exclui branches
-git clone                               | Clona um repositório
+Comando                                   | Função
+----------------------------------------- | -------------------------------------------------------------------------------
+`git --version`                           | Consulta a versão instalada
+`git init`                                | Cria um repositório
+`git status`                              | Exibe o status da árvore de trabalho 
+`git add`                                 | Adiciona os arquivos ao índice
+`git commit - m"commit message"`          | Cria um commit (grava as alterações) adicionando mensagem sobre o que se trata
+`git push`                                | Upa os arquivos atualizando a branch no repositório remoto
+`git branch`                              | Cria, lista ou exclui branches
+`git clone`                               | Clona um repositório
 
