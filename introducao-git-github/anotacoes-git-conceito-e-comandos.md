@@ -49,19 +49,24 @@ git checkout main
 ```
 🛑 Caso exiba o erro: `error: pathspec 'main' did not match any file(s) known to git` dê um `git checkout -b main`
 
- <!--`git pull origin nomedabranchatual --allow-unrelated-histories` em seguida adicione uma mensagem ou aperte ESC e digite `:wq` para fechar e salvar. -->
+ <!--`git pull origin nomeDaBranchAtual --allow-unrelated-histories` em seguida adicione uma mensagem ou aperte ESC e digite `:wq` para fechar e salvar. -->
 
 ```bash
 # Mescle a branch main com a que deseja (nesse caso a que estava trabalhando e vai alterar pela main) 
-git merge nomedabranch
+git merge nomeDaBranch
 ```
 ```bash
 # Envie os objetos atualizando a branch main no repositório remoto 
 git push
 ```
 ```bash
-# OPCIONAL: Delete a branch antiga do repositório local caso não deseje mais
-git branch -d nomedabranch
+# OPCIONAL: Delete a branch antiga do repositório local e remoto caso não deseje mais
+
+# Deletar a branch antiga do repositório local
+git branch -d nomeDaBranch
+
+# Deletar a branch antiga do repositório remoto
+git push origin --delete nomeDaBranch
 ```
 
 <br>
